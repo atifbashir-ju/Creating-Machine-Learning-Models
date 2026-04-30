@@ -13,7 +13,7 @@ y = weight
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 # step 4 creating and training the model
 model = LinearRegression()
-model.fit(X_train, y_train)
+model.fit(X_train, y_train) 
 # step 5 making predictions
 y_pred = model.predict(X_test)
 # step 6 visualizing the results
